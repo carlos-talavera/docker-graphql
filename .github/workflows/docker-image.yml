@@ -28,4 +28,4 @@ jobs:
           docker build -t charliet1802/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push charliet1802/docker-graphql:0.0.2 .
+        docker push charliet1802/docker-graphql:0.0.2
